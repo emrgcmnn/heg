@@ -1,0 +1,35 @@
+/* Home.css */
+.gallery-container {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Dikeyde ve yatayda hizalamayı ortala */
+}
+
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.button-container {
+    position: absolute;
+    display: flex;
+    bottom: 20px; /* Sayfanın altına yerleştirin */
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
